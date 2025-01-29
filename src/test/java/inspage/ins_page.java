@@ -83,7 +83,7 @@ public String selecteddate(String string) {
     // Print the raw extracted date (for debugging purposes)
     System.out.println("Raw Registration Date: " + registrationDateText);
 
-    // Assuming the extracted date is in "dd/MM/yyyy" format (Adjust based on actual format)
+  
     try {
         SimpleDateFormat inputFormat = new SimpleDateFormat("dd/MM/yyyy");
         Date date = inputFormat.parse(registrationDateText);
@@ -93,7 +93,7 @@ public String selecteddate(String string) {
         return outputFormat.format(date);
     } catch (Exception e) {
         e.printStackTrace();
-        return "Invalid Date Format";  // Return error message in case of exception
+        return "Invalid Date Format";  
     }
 }
 
