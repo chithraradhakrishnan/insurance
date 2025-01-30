@@ -5,8 +5,9 @@
     <classes>
       <class name="instest.ins_test">
         <methods>
+          <include name="teardown"/>
           <include name="setup"/>
-          <include name="first"/>
+          <include name="testInsuranceForm"/>
           <include name="openurl"/>
         </methods>
       </class> <!-- instest.ins_test -->

@@ -30,7 +30,12 @@
     <version>5.2.5</version>
 </dependency>
 
-</dependencies>
+  	<dependency>
+  		<groupId>Lum.comprojecttesting</groupId>
+  		<artifactId>Septembermaven</artifactId>
+  		<version>0.0.1-SNAPSHOT</version>
+  	</dependency>
+  </dependencies>
 
   <name>chithra</name>
   <description>project</description>
